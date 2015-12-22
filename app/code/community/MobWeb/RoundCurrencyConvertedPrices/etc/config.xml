@@ -7,19 +7,19 @@
     </modules>
     <global>
         <models>
-            <newslettersignupcoupon>
+            <roundcurrencyconvertedprices>
                 <class>MobWeb_RoundCurrencyConvertedPrices_Model</class>
-            </newslettersignupcoupon>
+            </roundcurrencyconvertedprices>
             <directory>
                 <rewrite>
                     <currency>MobWeb_RoundCurrencyConvertedPrices_Model_Currency</currency>
                 </rewrite>
-            </catalog>
+            </directory>
         </models>
         <helpers>
-            <newslettersignupcoupon>
+            <roundcurrencyconvertedprices>
                 <class>MobWeb_RoundCurrencyConvertedPrices_Helper</class>
-            </newslettersignupcoupon>
+            </roundcurrencyconvertedprices>
         </helpers>
     </global>
 </config>
