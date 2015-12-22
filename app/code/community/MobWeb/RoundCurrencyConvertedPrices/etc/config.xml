@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <MobWeb_RoundCurrencyConvertedPrices>
+            <version>0.1.0</version>
+        </MobWeb_RoundCurrencyConvertedPrices>
+    </modules>
+    <global>
+        <models>
+            <newslettersignupcoupon>
+                <class>MobWeb_RoundCurrencyConvertedPrices_Model</class>
+            </newslettersignupcoupon>
+            <directory>
+                <rewrite>
+                    <currency>MobWeb_RoundCurrencyConvertedPrices_Model_Currency</currency>
+                </rewrite>
+            </catalog>
+        </models>
+        <helpers>
+            <newslettersignupcoupon>
+                <class>MobWeb_RoundCurrencyConvertedPrices_Helper</class>
+            </newslettersignupcoupon>
+        </helpers>
+    </global>
+</config>

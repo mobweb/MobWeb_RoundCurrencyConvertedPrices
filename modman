@@ -1,0 +1,6 @@
+app/code/community/MobWeb/RoundCurrencyConvertedPrices app/code/community/MobWeb/RoundCurrencyConvertedPrices/
+
+app/etc/modules/MobWeb_RoundCurrencyConvertedPrices.xml app/etc/modules/MobWeb_RoundCurrencyConvertedPrices.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
